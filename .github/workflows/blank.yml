@@ -14,4 +14,4 @@ jobs:
       - name: install
         run: |
           pip install -U pytest
-      - run: python3 -m pytest kupa.py
+      - run: python3 -m unittest kupa.py
