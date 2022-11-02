@@ -1,4 +1,4 @@
-name: python test
+name: Python applic4tionen
 
 on: 
   push:
@@ -14,4 +14,4 @@ jobs:
       - name: install
         run: |
           pip install -U pytest
-      - run: python -m pytest test_kupa.py -vvv
+      - run: python3 -m unittest test.py
