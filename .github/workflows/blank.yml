@@ -12,4 +12,4 @@ jobs:
       - name: install
         run: |
           pip install -U pytest
-      - run: python3 -m pytest test_program1.py
+      - run: python3 -m pytest kupa.py
